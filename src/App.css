@@ -44,6 +44,10 @@
 .body {
   background: #000;
   color: #221f1f;
+  border-radius: 10px;
+  @media screen and (max-width: 555px) {
+    border-radius: 0;
+  }
 }
 .player {
   iframe {
@@ -51,7 +55,7 @@
     min-height: 90vh;
     @media screen and (max-width: 768px) {
       width: 100%;
-      min-height: 70vh
+      min-height: 50vmin;
     }
   }
 }
