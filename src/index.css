@@ -18,10 +18,7 @@ code {
   padding-bottom: 100px;
   margin-bottom: 100px;
 }
-.actions {
-  display: flex;
-  gap: 5px;
-}
+
 .button {
   color: white;
 }

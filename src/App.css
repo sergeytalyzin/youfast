@@ -45,7 +45,13 @@
   background: #000;
   color: #221f1f;
 }
-iframe {
-  width: 100%;
-  min-height: 100vh;
+.player {
+  iframe {
+    width: 85%;
+    min-height: 90vh;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      min-height: 70vh
+    }
+  }
 }
